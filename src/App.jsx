@@ -5,6 +5,7 @@ import Title from "./components/Title/Title"
 import About from "./components/About/About"
 import Campus from "./components/Campus/Campus"
 import Testimonials from "./components/Testimonials/Testimonials"
+import Contacts from "./components/Contacts/Contacts"
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
           subTitle='Contact Us'
           title='Get in Touch'
         />
+        <Contacts />
       </div>
     </div>
   )
