@@ -6,6 +6,7 @@ import About from "./components/About/About"
 import Campus from "./components/Campus/Campus"
 import Testimonials from "./components/Testimonials/Testimonials"
 import Contacts from "./components/Contacts/Contacts"
+import Footer from "./components/Footer/Footer"
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
           title='Get in Touch'
         />
         <Contacts />
+        <Footer />
       </div>
     </div>
   )
